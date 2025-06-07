@@ -236,7 +236,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: science
+                    - value: 'flask-conical'
                   field_summary:
                     - value: '<p>Cutting-edge research facilities and laboratories</p>'
                       format: basic_html
@@ -257,7 +257,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: public
+                    - value: 'globe'
                   field_summary:
                     - value: '<p>Global study abroad and exchange programs</p>'
                       format: basic_html
@@ -278,7 +278,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: work
+                    - value: 'briefcase'
                   field_summary:
                     - value: '<p>Career services and industry partnerships</p>'
                       format: basic_html

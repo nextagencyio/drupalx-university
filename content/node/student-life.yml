@@ -270,7 +270,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: local_library
+                    - value: 'library'
                   field_summary:
                     - value: '<p>Modern libraries with 24/7 study spaces and extensive digital resources</p>'
                       format: basic_html
@@ -291,7 +291,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: fitness_center
+                    - value: 'dumbbell'
                   field_summary:
                     - value: '<p>State-of-the-art recreation center with fitness facilities and courts</p>'
                       format: basic_html
@@ -312,7 +312,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: restaurant
+                    - value: 'utensils'
                   field_summary:
                     - value: '<p>Diverse dining options from casual cafes to formal dining halls</p>'
                       format: basic_html

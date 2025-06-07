@@ -108,7 +108,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: paid
+                    - value: 'dollar-sign'
                   field_title:
                     - value: '$500M+'
                   field_summary:
@@ -154,7 +154,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: domain
+                    - value: 'landmark'
                   field_title:
                     - value: '15'
                   field_summary:
@@ -380,7 +380,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: memory
+                    - value: 'cpu'
                   field_summary:
                     - value: '<p>Institute for Quantum Computing & Advanced Technologies</p>'
                       format: basic_html
@@ -401,7 +401,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: healing
+                    - value: 'heart-pulse'
                   field_summary:
                     - value: '<p>Center for Global Health Innovation & Policy</p>'
                       format: basic_html
@@ -422,7 +422,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: eco
+                    - value: 'leaf'
                   field_summary:
                     - value: '<p>Climate Change Research & Sustainability Institute</p>'
                       format: basic_html
@@ -443,7 +443,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: precision_manufacturing
+                    - value: 'robot'
                   field_summary:
                     - value: '<p>Advanced Robotics & Autonomous Systems Laboratory</p>'
                       format: basic_html

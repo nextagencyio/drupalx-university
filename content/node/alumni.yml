@@ -6,6 +6,8 @@ _meta:
   default_langcode: en
   depends:
     9a33874e-ce03-4f0f-9c6e-164a416d574c: media
+    univ-grad-006-medi-4f0f-9c6e-164a416d574c: media
+    univ-coll-005-medi-4f0f-9c6e-164a416d574c: media
 default:
   revision_uid:
     - target_id: 1
@@ -29,11 +31,11 @@ default:
     - tag: meta
       attributes:
         name: title
-        content: 'Alumni Network & Community | Our University'
+        content: 'Alumni Association | Metropolitan University'
     - tag: meta
       attributes:
         name: description
-        content: 'Connect with our global alumni network, explore career opportunities, and stay engaged with your alma mater.'
+        content: 'Connect with the Metropolitan University global alumni network. Access exclusive benefits, events, and networking opportunities to advance your career and stay engaged.'
     - tag: link
       attributes:
         rel: canonical
@@ -60,21 +62,21 @@ default:
           revision_translation_affected:
             - value: true
           field_heading:
-            - value: 'Alumni Network & Lifelong Connections'
+            - value: 'A Lifelong Community of Leaders & Innovators'
               format: restricted_html
           field_hero_layout:
             - value: image_top
           field_media:
-            - entity: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            - entity: univ-grad-006-medi-4f0f-9c6e-164a416d574c
           field_summary:
-            - value: 'Join our global network of accomplished alumni making a difference in their communities and industries worldwide.'
+            - value: "Your journey with Metropolitan University doesn't end at graduation. It evolves into a lifelong partnership with a global network of over 150,000 accomplished alumni who are shaping the future."
               format: basic_html
     - entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: ualp1-0001-4001-e001-000000000001
-          bundle: text
+          uuid: ualp-benefits-001-4001-e001-000000000001
+          bundle: card_group
           default_langcode: en
         default:
           status:
@@ -86,22 +88,101 @@ default:
           revision_translation_affected:
             - value: true
           field_title:
-            - value: 'Alumni Benefits & Services'
-          field_body:
-            - value: |
-                <p>As a valued member of our alumni community, you have access to a range of exclusive benefits and services:</p>
-                <ul>
-                  <li>Career services and networking opportunities.</li>
-                  <li>Lifelong learning discounts on select courses.</li>
-                  <li>Access to university libraries and online journals.</li>
-                  <li>Invitations to exclusive alumni events.</li>
-                </ul>
-              format: basic_html
+            - value: 'Exclusive Alumni Benefits & Services'
+          field_card:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-benefit-career-001-4001-e001-000000000001
+                  bundle: stats_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'briefcase'
+                  field_title:
+                    - value: 'Career Advancement'
+                  field_summary:
+                    - value: 'Access to job boards, career counseling, and professional networking events.'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-benefit-learning-002-4002-e002-000000000002
+                  bundle: stats_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'book-open'
+                  field_title:
+                    - value: 'Lifelong Learning'
+                  field_summary:
+                    - value: 'Exclusive discounts on continuing education courses and certificate programs.'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-benefit-connect-003-4003-e003-000000000003
+                  bundle: stats_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'users'
+                  field_title:
+                    - value: 'Global Network'
+                  field_summary:
+                    - value: 'Connect with alumni in your city or industry through our worldwide chapters.'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-benefit-events-004-4004-e004-000000000004
+                  bundle: stats_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'calendar'
+                  field_title:
+                    - value: 'Exclusive Events'
+                  field_summary:
+                    - value: 'Invitations to networking receptions, homecoming, and guest lectures.'
     - entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: ualp2-0002-4002-e002-000000000002
+          uuid: ualp-involved-002-4002-e002-000000000002
           bundle: sidebyside
           default_langcode: en
         default:
@@ -113,22 +194,90 @@ default:
             - value: {  }
           revision_translation_affected:
             - value: true
+          field_eyebrow:
+            - value: 'Stay Connected'
           field_title:
-            - value: 'Get Involved: Events & Chapters'
+            - value: 'Get Involved, Make an Impact'
           field_summary:
             - value: |
-                <p>Stay connected with your alma mater and fellow graduates. Participate in regional alumni chapter events, attend homecoming, or volunteer as a mentor for current students.</p>
-                <p>Our vibrant alumni chapters across the globe host regular social, professional, and philanthropic events.</p>
+                <p>Your connection to Metropolitan University is a powerful resource. Re-engage with your alma mater and fellow graduates in ways that are meaningful to you.</p>
               format: basic_html
           field_sidebyside_layout:
             - value: left
           field_media:
-            - entity: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+            - entity: univ-coll-005-medi-4f0f-9c6e-164a416d574c
+          field_features:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-bullet-events-001-4001-e001-000000000001
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541787
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'globe'
+                  field_summary:
+                    - value: '<p><strong>Regional Events:</strong> Join social, professional, and philanthropic events hosted by our vibrant alumni chapters across the globe.</p>'
+                      format: basic_html
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-bullet-home-002-4002-e002-000000000002
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541787
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'home'
+                  field_summary:
+                    - value: '<p><strong>Homecoming:</strong> Reconnect with classmates and faculty at our annual homecoming celebration.</p>'
+                      format: basic_html
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ualp-bullet-mentor-003-4003-e003-000000000003
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541787
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: 'hand-helping'
+                  field_summary:
+                    - value: '<p><strong>Mentorship:</strong> Volunteer to guide and inspire current students by sharing your experience and expertise.</p>'
+                      format: basic_html
+          field_link:
+            - uri: 'internal:/alumni-events'
+              title: 'Find an Event Near You'
     - entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: ualp3-0003-4003-e003-000000000003
+          uuid: ualp-cta-003-4003-e003-000000000003
           bundle: text
           default_langcode: en
         default:
@@ -140,10 +289,21 @@ default:
             - value: {  }
           revision_translation_affected:
             - value: true
+          field_eyebrow:
+            - value: 'Give Back'
           field_title:
-            - value: 'Notable Alumni Spotlights'
+            - value: 'Shape the Next Generation'
+          field_text_layout:
+            - value: centered
           field_body:
             - value: |
-                <p>Our alumni have gone on to achieve great things in various fields. We are proud to spotlight their accomplishments and contributions to society.</p>
-                <p><em>(Content for alumni spotlights would feature brief profiles or links to stories about successful graduates.)</em></p>
+                <p>Your support helps us provide transformative educational experiences for current and future students. Consider making a gift to support scholarships, research, or your favorite program.</p>
               format: basic_html
+          field_link:
+            - uri: 'internal:/give'
+              title: 'Make a Gift'
+              options: {  }
+          field_link2:
+            - uri: 'internal:/volunteer'
+              title: 'Volunteer Your Time'
+              options: {  }

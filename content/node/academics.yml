@@ -297,7 +297,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: schedule
+                    - value: 'calendar-clock'
                   field_summary:
                     - value: '<p>Flexible scheduling with day, evening, and online options</p>'
                       format: basic_html
@@ -318,7 +318,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: school
+                    - value: 'school'
                   field_summary:
                     - value: '<p>Dual degree and interdisciplinary programs available</p>'
                       format: basic_html
@@ -339,7 +339,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: transfer_within_a_station
+                    - value: 'arrow-left-right'
                   field_summary:
                     - value: '<p>Transfer-friendly with generous credit policies</p>'
                       format: basic_html
@@ -366,7 +366,23 @@ default:
           field_text_layout:
             - value: left
           field_body:
-            - value: '<p>We are committed to your success from day one through graduation and beyond. Our comprehensive support services ensure you have the resources and guidance needed to excel academically and personally.</p><h3>Academic Support Services</h3><ul><li><strong>Academic Advising:</strong> Personalized guidance from faculty and professional advisors</li><li><strong>Tutoring Centers:</strong> Free peer and professional tutoring in all major subjects</li><li><strong>Writing Center:</strong> Support for all types of writing assignments and research projects</li><li><strong>Library & Research Services:</strong> Extensive digital and physical collections plus research consultation</li><li><strong>Study Abroad:</strong> Over 100 programs in 40+ countries worldwide</li></ul><h3>Career & Professional Development</h3><ul><li><strong>Career Counseling:</strong> Individual career planning and exploration sessions</li><li><strong>Internship Programs:</strong> Partnerships with leading organizations for hands-on experience</li><li><strong>Job Placement Services:</strong> Resume writing, interview preparation, and job search assistance</li><li><strong>Alumni Network:</strong> Access to 150,000+ alumni worldwide for mentoring and networking</li></ul>'
+            - value: |
+                <p>We are committed to your success from day one through graduation and beyond. Our comprehensive support services ensure you have the resources and guidance needed to excel academically and personally.</p>
+                <h3>Academic Support Services</h3>
+                <ul>
+                  <li><strong>Academic Advising:</strong> Personalized guidance from faculty and professional advisors</li>
+                  <li><strong>Tutoring Centers:</strong> Free peer and professional tutoring in all major subjects</li>
+                  <li><strong>Writing Center:</strong> Support for all types of writing assignments and research projects</li>
+                  <li><strong>Library & Research Services:</strong> Extensive digital and physical collections plus research consultation</li>
+                  <li><strong>Study Abroad:</strong> Over 100 programs in 40+ countries worldwide</li>
+                </ul>
+                <h3>Career & Professional Development</h3>
+                <ul>
+                  <li><strong>Career Counseling:</strong> Individual career planning and exploration sessions</li>
+                  <li><strong>Internship Programs:</strong> Partnerships with leading organizations for hands-on experience</li>
+                  <li><strong>Job Placement Services:</strong> Resume writing, interview preparation, and job search assistance</li>
+                  <li><strong>Alumni Network:</strong> Access to 150,000+ alumni worldwide for mentoring and networking</li>
+                </ul>
               format: basic_html
               summary: ''
           field_link:
