@@ -273,6 +273,7 @@ default:
           field_link:
             - uri: 'internal:/alumni-events'
               title: 'Find an Event Near You'
+              options: {  }
     - entity:
         _meta:
           version: '1.0'
