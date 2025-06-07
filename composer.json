@@ -1,7 +1,7 @@
 {
     "name": "nextagencyio/drupalx-university",
     "description": "University installation profile for DrupalX",
-    "type": "drupal-profile",
+    "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
